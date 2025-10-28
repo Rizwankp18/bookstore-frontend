@@ -4,7 +4,7 @@ export const adminUpdateProfile=createContext("")
 export const userUpdateProfile=createContext("")
 
 
-function ContextShare({children}) {
+function Context({children}) {
 
     const [adminProfile,setAdminProfile]=useState({})
         const [userProfile,setUserProfile]=useState({})
@@ -26,4 +26,4 @@ function ContextShare({children}) {
   )
 }
 
-export default ContextShare
+export default Context

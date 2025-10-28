@@ -4,7 +4,7 @@ import { IoBookSharp } from 'react-icons/io5'
 import { RiGraduationCapFill } from 'react-icons/ri'
 import { useNavigate } from 'react-router-dom'
 import { serverUrl } from '../../service/ServerUrl'
-import { adminUpdateProfile } from '../../context/contextShare'
+import { adminUpdateProfile } from '../../context/Context'
 
 function AdminSidebar() {
 

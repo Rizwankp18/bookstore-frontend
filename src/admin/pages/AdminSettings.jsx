@@ -5,7 +5,7 @@ import { MdOutlineModeEdit } from 'react-icons/md'
 import { serverUrl } from '../../service/ServerUrl'
 import { toast } from 'react-toastify'
 import { editProfileApi } from '../../service/allApi'
-import { adminUpdateProfile } from '../../context/contextShare'
+import { adminUpdateProfile } from '../../context/Context'
 
 function AdminSettings() {
   const [preview,setPreview]=useState("")

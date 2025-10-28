@@ -6,7 +6,7 @@ import EditProfile from '../components/EditProfile'
 import { toast } from 'react-toastify'
 import { addBookApi, deleteUserBookApi, getUserAddedApi, getUserBookApi } from '../../service/allApi'
 import { serverUrl } from '../../service/ServerUrl'
-import { userUpdateProfile } from '../../context/contextShare'
+import { userUpdateProfile } from '../../context/Context'
 
 function Profile() {
   

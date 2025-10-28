@@ -6,7 +6,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { IoMenu } from "react-icons/io5";
 import { serverUrl } from '../../service/ServerUrl';
-import { userUpdateProfile } from '../../context/contextShare';
+import { userUpdateProfile } from '../../context/Context';
 
 function Header() {
   const [clickStatus, setClickStatus] = useState(false)

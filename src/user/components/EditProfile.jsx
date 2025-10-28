@@ -4,7 +4,7 @@ import { IoMdClose } from 'react-icons/io'
 import { serverUrl } from '../../service/ServerUrl'
 import { toast } from 'react-toastify'
 import { editProfileApi } from '../../service/allApi'
-import { userUpdateProfile } from '../../context/contextShare'
+import { userUpdateProfile } from '../../context/Context'
 
 function EditProfile() {
   const [token,settoken]=useState("")
