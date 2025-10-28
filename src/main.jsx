@@ -12,7 +12,8 @@ createRoot(document.getElementById('root')).render(
  <Context>
   <GoogleOAuthProvider clientId='571029332522-s64utkqor5s066ai8avqq6g5jrnabec5.apps.googleusercontent.com'>
     <App />
- </GoogleOAuthProvider></Context>
+ </GoogleOAuthProvider>
+ </Context>
   </BrowserRouter>
 
   </StrictMode>,
