@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
-import ContextShare from './context/contextShare.jsx'
 import { GoogleOAuthProvider } from '@react-oauth/google'
 import Context from './context/Context.jsx'
 
